@@ -1,7 +1,7 @@
 /* NavBar */
 .inline-block {
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    flex-direction: row;
 }
 
 div .logo {
@@ -12,6 +12,7 @@ div .logo {
 nav {
     width: 73%;
     padding: 1%;
+    background-color: #373738;
 }
 
 ul {
